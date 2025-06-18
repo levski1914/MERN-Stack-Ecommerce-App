@@ -108,12 +108,6 @@ The backend server is deployed on Render and can be accessed at the following UR
     <img src="docs/order-ui.png" alt="Fusion Electronics Order Success Page" style="border-radius: 10px" width="100%"/>
 </p>
 
-### Footer
-
-<p align="center">
-    <img src="docs/footer.png" alt="Fusion Electronics Footer" style="border-radius: 10px" width="100%"/>
-</p>
-
 ## Features
 
 - **Product Management:**
