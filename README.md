@@ -34,7 +34,7 @@ This project is a demonstration of building an e-commerce application using the 
 
 ## Live Deployment
 
-The application is deployed live on Vercel. You can access it at the following URL: [Fusion Electronics](https://fusion-ecommerce-app.vercel.app).
+The application is deployed live on Vercel. You can access it at the following URL: [Fusion Electronics](https://electronic-ecommerce-gd.netlify.app/).
 
 The backend server is deployed on Render and can be accessed at the following URL: [Fusion Electronics API](https://mern-stack-ecommerce-app-production.up.railway.app/).
 
