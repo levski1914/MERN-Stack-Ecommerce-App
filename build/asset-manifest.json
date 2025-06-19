@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/static/css/main.7488f992.css",
+    "main.js": "/static/js/main.fc0973df.js",
+    "static/js/999.f71f2822.chunk.js": "/static/js/999.f71f2822.chunk.js",
+    "static/media/trending-fashion.jpg": "/static/media/trending-fashion.5cb2f97feb5cf30a8472.jpg",
+    "static/media/tech-gadgets.jpg": "/static/media/tech-gadgets.3cd8fe6fc95997c8e695.jpg",
+    "static/media/summer-sale.jpg": "/static/media/summer-sale.2df93e339353173609c8.jpg",
+    "index.html": "/index.html",
+    "main.7488f992.css.map": "/static/css/main.7488f992.css.map",
+    "main.fc0973df.js.map": "/static/js/main.fc0973df.js.map",
+    "999.f71f2822.chunk.js.map": "/static/js/999.f71f2822.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7488f992.css",
+    "static/js/main.fc0973df.js"
+  ]
+}
