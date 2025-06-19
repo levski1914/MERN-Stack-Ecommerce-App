@@ -57,26 +57,24 @@ function NavigationBar({ cartItemCount }) {
   };
 
   // Debounced function to prevent triggering the search too often
-  const debouncedSearch = React.useCallback(
-    debounce(async query => {
-      if (query.trim() === '') {
-        setSearchResults([]); // Clear search results if the query is empty
-        setLoading(false);
-        return;
-      }
-      setLoading(true); // Set loading to true when search is triggered
-      try {
-        const response = await axios.get(`https://mern-stack-ecommerce-app-production.up.railway.app/api/search?q=${query}`);
-        setSearchResults(response.data);
-      } catch (error) {
-        console.error('Error fetching search results:', error);
-        setSearchResults([]);
-      } finally {
-        setLoading(false); // Stop loading when the API call finishes
-      }
-    }, 300), // 300ms debounce delay
-    []
-  );
+  const debouncedSearch = debounce(async (query) => {
+    if (query.trim() === '') {
+      setSearchResults([]);
+      setLoading(false);
+      return;
+    }
+    setLoading(true);
+    try {
+      const response = await axios.get(`https://mern-stack-ecommerce-app-production.up.railway.app/api/search?q=${query}`);
+      setSearchResults(response.data);
+    } catch (error) {
+      console.error('Error fetching search results:', error);
+      setSearchResults([]);
+    } finally {
+      setLoading(false);
+    }
+  }, 300);
+
 
   // Event listener to hide search results if clicking outside search bar or results
   React.useEffect(() => {

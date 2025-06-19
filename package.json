@@ -8,9 +8,7 @@
   "bugs": {
     "url": "https://github.com/levski1914/MERN-Stack-Ecommerce-App/issues"
   },
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com"
-  },
+
   "repository": {
     "type": "git",
     "url": "git+https://github.com/levski1914/MERN-Stack-Ecommerce-App.git"
